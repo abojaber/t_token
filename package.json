@@ -1,0 +1,19 @@
+{
+  "name": "dummy-token",
+  "preferGlobal": false,
+  "version": "0.0.1",
+  "author": "Fahad Alotaibi <abojaber@programmer.net>",
+  "description": "a simple web server for token test",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "jsonwebtoken": "~8.5.0",
+    "fs": "~0.0.1",
+    "express": "~4.16.4"
+  }
+}
